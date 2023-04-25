@@ -43,4 +43,21 @@ body{
 
 ## Aufgaben
 
-- Erstelle im body einen nav container mit einer 
+- Erstelle im body einen `header`, `nav` und 3 `sections`
+- gib jeder `section` die Höhe einer vollen Bildschirmhöhe
+- setze die ganze Seite auf scroll smooth **(neu)**
+- wähle eine [sans-serif](https://www.w3schools.com/cssref/css_websafe_fonts.php) Schriftart für deine Seite
+- Erstelle einen Seitenüberschrift im `header` "Box-Model Zusammenfassung"
+- gib jeder `section` eine passende Überschrift
+    - section 1: "Margin & Padding"
+    - section 2: "Images & Background Images"
+    - section 3: "Position & Border"
+- Jede Überschrift sollte einen Margin nach oben und unten von 25px haben und sollte zentriert sein.
+- Erzeuge 3 Div container mit je einem `span`, dass eine Breite von `40%` des Elternelementes einnimmt.
+    - Erzeuge einen `Lorem` Text und ändere die Schriftart aller `spans` in `Monospace`
+    - Erzeuge eine `border` mit abgerundeten Ecken
+        - Zusatz: Versuche den `box-shadow` Effekt zu nutzen
+- Füge Bilder hinzu
+    - Span 1: Bild rechts
+    - Span 2: Bild links
+    - Span 3: Bild links
