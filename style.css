@@ -1,0 +1,23 @@
+section{
+  height: 100vh;
+}
+
+.bgImgContainer{
+  /*background: url("./images/nature.jpg") 100%/cover no-repeat;*/
+  background-color: #fff;
+  height: 30rem;
+  border:solid;
+}
+
+.bgImgContainer p{
+  background: url("./images/nature.jpg") 100% no-repeat;
+  background-color: #eee;
+  width: 80%;
+  font-size: 12rem;
+  font-weight: 900;
+  margin: auto;
+  padding: 1rem;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
