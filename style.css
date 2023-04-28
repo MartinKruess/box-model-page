@@ -1,23 +1,148 @@
-section{
-  height: 100vh;
+:root{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
-.bgImgContainer{
-  /*background: url("./images/nature.jpg") 100%/cover no-repeat;*/
-  background-color: #fff;
-  height: 30rem;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  font-size: 1.6rem;
+}
+
+h1,h2{
+  margin: 2.5rem 0;
+}
+
+header, nav{
+  width: 80%;
+  margin: auto;
+}
+
+nav{
+  background-color: #23262999;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: inline-block;
+  margin: 2rem 3rem;
+}
+
+a{
+  color: #ededed;
+  text-decoration: none;
+}
+
+section{
+  width: 80%;
+  height: 100vh;
+  margin: 1rem auto;
+  border:solid red;
+}
+
+section div{
+  margin: 2rem 0;
+}
+
+/* Margin und Padding */
+
+.text{
+  width: 30%;
+  font-family: monospace;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0.1rem solid #232629;
+  border-radius: 1rem;
+  box-shadow:
+   0.3rem 0.3rem 0.6rem 0.6rem #23262966,
+   -0.1rem 0.1rem 0.2rem 0.2rem #23262966,
+  0.3rem -0.3rem 0.2rem 0.2rem #23262944,
+  -0.1rem -0.1rem 0.2rem 0.2rem #23262944;
+}
+
+.imgContainer{
+  width: 25%;
+  display: inline-block;
+}
+
+.left{
+  margin-left: 44%;
+}
+
+.right{
+  margin-right: 44%;
+}
+
+img{
+  width: 100%;
+}
+
+/* Background */
+
+.banner{
+  height: 25rem;
   border:solid;
 }
 
-.bgImgContainer p{
-  background: url("./images/nature.jpg") 100% no-repeat;
-  background-color: #eee;
-  width: 80%;
-  font-size: 12rem;
-  font-weight: 900;
-  margin: auto;
-  padding: 1rem;
+.bgContainer{
+  background: url("./images/nature.jpg") 100%/cover no-repeat;
+}
 
+.letterContainer{
+  width: 47%;
+  margin: 8rem auto;
+}
+
+.letter{
+  background-color: #fff;
+  width: 6rem;
+  height: 6rem;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0 1.5rem;
+  padding: 1.6rem 0;
+  display: inline-block;
+}
+
+/* Zusatzaufgabe */
+
+.fontBgContainer p{
+  background: url("./images/laser.gif") 100%/cover no-repeat;
+  font-size: 16rem;
+  font-weight: 900;
+  text-align: center;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+}
+
+/* Position */
+
+.bannerBig{
+  background: url("./images/nature.jpg") 100%/cover no-repeat;
+  width: 60rem;
+  height: 30rem;
+}
+
+.bannerBig p{
+  background-color: #ededed;
+  width: 20rem;
+  height: 5rem;
+  font-size: 3rem;
+  position: relative;
+}
+
+.pTag{
+  position: absolute;
+  bottom: -20rem;
+  right: -40rem;
 }

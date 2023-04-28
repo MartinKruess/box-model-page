@@ -44,30 +44,43 @@ body{
 
 ## Aufgaben
 
-- Erstelle im body einen `header`, `nav` und 3 `sections`
-- gib jeder `section` die Höhe einer vollen Bildschirmhöhe und eine Breite von 80%
+- Erstelle im body einen `header`, `nav` und 3 `sections` mit der Breite von 80% und zentriere alles,
+- gib jeder `section` die Höhe einer vollen Bildschirmhöhe
 - setze die ganze Seite auf scroll smooth **(neu)**
 - wähle eine [sans-serif](https://www.w3schools.com/cssref/css_websafe_fonts.php) Schriftart für deine Seite
 - Erstelle einen Seitenüberschrift im `header` "Box-Model Zusammenfassung"
 - gib jeder `section` eine passende Überschrift
     - section 1: "Margin & Padding"
-    - section 2: "Images & Background Images"
-    - section 3: "Position & Border"
-- Jede Überschrift sollte einen Margin nach oben und unten von 25px haben und sollte zentriert sein.
+    - section 2: "Background"
+    - section 3: "Position"
+- Jede Überschrift sollte einen Margin nach oben und unten von 25px haben
 
 ### Section 1: Margin und Padding
 
-- Erzeuge 3 Div container mit je einem `span`, dass eine Breite von `40%` des Elternelementes ein nimmt.
-    - Erzeuge einen `Lorem` Text und ändere die Schriftart aller `spans` in `Monospace`
+- Erzeuge 3 Div container mit je einem `p-tag`, das eine Breite von `30%` des Elternelementes einnimmt.
+    - Erzeuge einen `Lorem` Text und ändere die Schriftart der `p-tags` in `Monospace`
     - Erzeuge eine `border` mit abgerundeten Ecken
         - Zusatz: Versuche den `box-shadow` Effekt zu nutzen
 - Füge Bilder hinzu
     - Span 1: Bild rechts
     - Span 2: Bild links
-    - Span 3: Bild links
-    - die Bilder sollten 40% des Elternelementes einenhmen
+    - Span 3: Bild rechts
+    - die Bilder sollten 25% des Elternelementes einenhmen
+    - sorge für etwas Platz zwischen dem Text und dem Bild
+    Tipp: Die Section sind 100% ;)
 
 ### Section 2: Background & Position
+
+Nutze hier den `background` shorthand
+
+|Befehl|background-image|background-size|background-position|background-repeat|
+|---|---|---|---|---|
+|background:|url("./images/image.jpg")|100%|cover|no-repeat|
+```
+{
+   background: url("./images/image.jpg") 100%/cover no-repeat;
+}
+```
 
 - füge ein `div` container ein, mit 100% Breite einer section und 250px Höhe
 - gib dem div Container das Hintergrundbild `nature.jpg` und passe es an. Es soll über die ganze Seite gehen und nicht wiederholt werden!
@@ -81,20 +94,25 @@ Beispiel: Max
 </div>
 ```
 - nutze `inline-block` um die Buchstaben nebeneinander aufzulisten und mit `Padding` und `Margin` auszurichten
+Tipp: Manchmal hilft ein zusätzlicher COntainer für mehr Stabilität.
 
 #### Zusatzaufgabe (schwerer)
 
-- Legen einen weiteren Div Container an der ebenfalls über die gesamte Breite geht.
+- Legen einen weiteren Div Container an der ebenfalls über die gesamte Breite geht und 250px hoch ist.
 - Schreibe deinen Namen in einen p-tag und zentriere den Text
-- Gib dem Div einen weißen Hintergrund
-- nun setze das `Nature.jpg` als Hintergrund im p-tag und finde heraus wie man diesen Hintergrund dem Text zuordnet.
+- nun setze das `laser.giv` als Hintergrund im p-tag und finde heraus wie man diesen Hintergrund dem Text zuordnet.
 - Suchbegriff: Set Image as Background for Text
+Tipp: 100%/cover
 
-## Section 3: Position
+## STOP
 
-- Lege einen Div container an, der 50% der höhe der Section einnimmt
+Position haben wir diese Woche nicht gelernt, daher lasst die Aufgabe einfach aus ^^
+
+## Section 3: Position (Für später!)
+
+- Lege einen Div container an, der `width: 60rem` und `height: 30rem` groß ist.
 - setze das `nature.jpg` als Background img ein `(no-repeat 100%/cover)`
-- Lege 2 p-tags im div mit 200px breite und 100px höhe an
+- Lege 2 p-tags im div mit 200px breite und 50px höhe an
 - schreibe `Nature` in den 1. p-tag und gebe als Hintergrundfarbe `#ededed`
 - schriebe in das 2. p-tag `Die Zugspitze`
-- positioniere die p-tags oben links und oben rechts in den Ecken.
+- positioniere den 2. p-tag unten rechts in der Ecke.
