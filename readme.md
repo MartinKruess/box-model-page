@@ -42,10 +42,18 @@ body{
 }
 ```
 
+**Bevor es log geht:**
+- Ich habe um die Sections die Border red stehen lassen um das ganze besser sichtbar zu machen.
+- Einige beispiel funktionieren nur wie auf den Bildern ohne dass der Browser kleiner gemacht wird z.B. Name als einzelne Buchstaben
+- nutzt bitte `em` oder `rem`, `inline-block` *** keine felx-box *** ^^
+
+:) Viel Spaß :)
+
 ## Aufgaben
 
 - Erstelle im body einen `header`, `nav` und 3 `sections` mit der Breite von 80% und zentriere alles,
 - gib jeder `section` die Höhe einer vollen Bildschirmhöhe
+- Setze bookmarkjumps (nav click to section)
 - setze die ganze Seite auf scroll smooth **(neu)**
 - wähle eine [sans-serif](https://www.w3schools.com/cssref/css_websafe_fonts.php) Schriftart für deine Seite
 - Erstelle einen Seitenüberschrift im `header` "Box-Model Zusammenfassung"
@@ -54,6 +62,8 @@ body{
     - section 2: "Background"
     - section 3: "Position"
 - Jede Überschrift sollte einen Margin nach oben und unten von 25px haben
+
+![Header und Nav](./images/nichtVerwenden/headerNav.PNG)
 
 ### Section 1: Margin und Padding
 
@@ -68,6 +78,8 @@ body{
     - die Bilder sollten 25% des Elternelementes einenhmen
     - sorge für etwas Platz zwischen dem Text und dem Bild
     Tipp: Die Section sind 100% ;)
+
+![Section 1 Beispielbild](./images/nichtVerwenden/section1.PNG)
 
 ### Section 2: Background & Position
 
@@ -96,6 +108,8 @@ Beispiel: Max
 - nutze `inline-block` um die Buchstaben nebeneinander aufzulisten und mit `Padding` und `Margin` auszurichten
 Tipp: Manchmal hilft ein zusätzlicher COntainer für mehr Stabilität.
 
+![Section 2 Beispielbild](./images/nichtVerwenden/section2.PNG)
+
 #### Zusatzaufgabe (schwerer)
 
 - Legen einen weiteren Div Container an der ebenfalls über die gesamte Breite geht und 250px hoch ist.
@@ -116,3 +130,5 @@ Position haben wir diese Woche nicht gelernt, daher lasst die Aufgabe einfach au
 - schreibe `Nature` in den 1. p-tag und gebe als Hintergrundfarbe `#ededed`
 - schriebe in das 2. p-tag `Die Zugspitze`
 - positioniere den 2. p-tag unten rechts in der Ecke.
+
+![Section 3 Beispielbild](./images/nichtVerwenden/section3.PNG)
